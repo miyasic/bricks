@@ -13,4 +13,4 @@ vars:
     prompt: What is the sealed class name.
   class_list:
     type: list
-    prompt: What additional methods/extensions should the model have?
+    prompt: What is the new subclass name you want to create extending from the sealed class?

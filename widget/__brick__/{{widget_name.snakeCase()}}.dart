@@ -1,0 +1,1 @@
+{{#use_stateless}}{{> stateless_widget }}{{/use_stateless}}{{#use_consumer}}{{> consumer_widget }}{{/use_consumer}}{{#use_hook_consumer}}{{> hook_consumer_widget }}{{/use_hook_consumer}}{{#use_hook}}{{> hook_widget }}{{/use_hook}}

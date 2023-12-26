@@ -1,0 +1,23 @@
+name: widget
+description: A new brick created with the Mason CLI.
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.51 <0.1.0"
+
+vars:
+  widget_name:
+    type: string
+    description: The name of Widget.
+    prompt: What is the Widget name?
+  widget_type:
+    type: enum
+    description: The type of the Widget.
+    default: Stateless
+    prompt: What kind of the Widget?
+    values:
+      - Stateless
+      - Hook
+      - Consumer
+      - HookConsumer
