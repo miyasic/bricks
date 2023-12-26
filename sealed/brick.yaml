@@ -1,0 +1,16 @@
+name: sealed
+description: A new brick created with the Mason CLI.
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.51 <0.1.0"
+
+vars:
+  class_name:
+    type: string
+    description: The name of sealed class.
+    prompt: What is the sealed class name.
+  class_list:
+    type: list
+    prompt: What additional methods/extensions should the model have?
